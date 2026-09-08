@@ -1,10 +1,10 @@
 <div align="center">
 
-# Vahmi Sofyan
+# vhmns
 **Fullstack & Systems Developer** · Indonesia 🇮🇩
 
 <p align="center">
-  <a href="mailto:vhmns@voidforgeworks.my.id"><img src="https://img.shields.io/badge/Email-vhmns%40voidforgeworks.my.id-24292e?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>
+  <a href="mailto:hello@vhmns.tech"><img src="https://img.shields.io/badge/Email-hello%40vhmns.tech-24292e?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>
   <a href="https://github.com/vhmns14"><img src="https://img.shields.io/badge/GitHub-vhmns14-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub" /></a>
   <a href="https://streak-stats.demolab.com/?user=vhmns14&theme=dark&hide_border=true"><img src="https://img.shields.io/badge/Status-Building%20Daily-2ea44f?style=flat-square" alt="Status" /></a>
 </p>
@@ -61,5 +61,5 @@ AI / Systems :: LLM Agent Runtimes · Tooling Audit Scanners · Local Systems & 
 ---
 
 <div align="center">
-  <sub>Get in touch via <a href="mailto:vhmns@voidforgeworks.my.id">vhmns@voidforgeworks.my.id</a></sub>
+  <sub>Get in touch via <a href="mailto:hello@vhmns.tech">hello@vhmns.tech</a></sub>
 </div>
