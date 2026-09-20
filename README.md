@@ -24,6 +24,14 @@
 
 ---
 
+### 🤖 Autonomous Agents & Multi-Agent Systems
+
+| Project | Description | Stack | Status |
+| :--- | :--- | :--- | :--- |
+| **[hermes-colosseum](https://github.com/vhmns14/hermes-colosseum)** | Multi-agent social deduction and strategic deception engine. Tests Theory of Mind and persuasion via dual-layer cognitive architecture (private mastermind vs public rhetoric) with real-time TUI and forensic match reports. | TypeScript · Bun · LLM Agents | Active |
+
+---
+
 ### 🔨 Production Web & Logistics Systems
 
 | Project | What It Does | Stack | Status |
@@ -54,6 +62,7 @@ Recent contributions merged to upstream projects:
 
 ```text
 Systems & Crypto :: Go · Solidity / Foundry · X25519 · Ed25519 · Shamir's Secret Sharing · Merkle Trees
+AI & Multi-Agent :: Dual-Layer ReAct Loops · Theory of Mind (ToM) · Prompt Forensics · Persona Swarms
 Languages        :: Go · TypeScript · JavaScript · Rust · Python · Solidity · SQL
 Backend & Edge   :: Node.js · Bun · Cloudflare Workers · Next.js · Astro
 Storage & DB     :: PostgreSQL · SQLite / LibSQL · Redis · Cloudflare D1
