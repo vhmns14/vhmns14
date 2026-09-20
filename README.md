@@ -9,13 +9,22 @@
   <a href="https://streak-stats.demolab.com/?user=vhmns14&theme=dark&hide_border=true"><img src="https://img.shields.io/badge/Status-Building%20Daily-2ea44f?style=flat-square" alt="Status" /></a>
 </p>
 
-> *I build software small businesses actually run on — and dig into the systems underneath.*
+> *I build production web tools for real businesses and write systems software from cryptographic first principles.*
 
 </div>
 
 ---
 
-### 🔨 Selected Systems & Tools
+### 🛡️ Cryptography & Systems Infrastructure
+
+| Project | Description | Stack | Status |
+| :--- | :--- | :--- | :--- |
+| **[void-vault](https://github.com/vhmns14/void-vault)** | Zero-knowledge secret vault and dead man's switch. Splits secrets into $k$-of-$n$ shares using pure $\text{GF}(2^8)$ Shamir's Secret Sharing, encrypts shares for guardians via X25519/AES-GCM, and enforces heartbeats on-chain. | Go · Solidity · Foundry · SQLite | Active |
+| **[void-ledger](https://github.com/vhmns14/void-ledger)** | Append-only tamper-evident cryptographic ledger engine. Domain-separated SHA-256 hash chaining, PostgreSQL mutation-blocking triggers, Ed25519 digital signatures, RFC 6962 binary Merkle trees, and EVM checkpoint anchoring. | Go · PostgreSQL · Solidity · Foundry | Active |
+
+---
+
+### 🔨 Production Web & Logistics Systems
 
 | Project | What It Does | Stack | Status |
 | :--- | :--- | :--- | :--- |
@@ -41,13 +50,14 @@ Recent contributions merged to upstream projects:
 
 ---
 
-### ⚡ Tech Stack & Focus
+### ⚡ Tech Stack
 
 ```text
-Languages    :: TypeScript · JavaScript · Rust · Python · Go · Solidity · SQL
-Backend/Edge :: Node.js · Bun · Cloudflare Workers · Next.js · Astro
-Data/Storage :: SQLite / LibSQL · PostgreSQL · D1 · Redis
-AI / Systems :: LLM Agent Runtimes · Tooling Audit Scanners · Local Systems & CLIs
+Systems & Crypto :: Go · Solidity / Foundry · X25519 · Ed25519 · Shamir's Secret Sharing · Merkle Trees
+Languages        :: Go · TypeScript · JavaScript · Rust · Python · Solidity · SQL
+Backend & Edge   :: Node.js · Bun · Cloudflare Workers · Next.js · Astro
+Storage & DB     :: PostgreSQL · SQLite / LibSQL · Redis · Cloudflare D1
+Tooling & Infra  :: Podman · Docker · Foundry · Git · Linux (Fedora)
 ```
 
 ---
