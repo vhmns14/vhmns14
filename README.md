@@ -1,15 +1,18 @@
 <div align="center">
 
 # vhmns
-**Fullstack & Systems Developer** · Indonesia 🇮🇩
+**Systems & Product Engineer** · Indonesia 🇮🇩
 
 <p align="center">
+  <a href="https://vhmns.tech"><img src="https://img.shields.io/badge/Site-vhmns.tech-24292e?style=flat-square&logo=googlechrome&logoColor=white" alt="Website" /></a>
   <a href="mailto:hello@vhmns.tech"><img src="https://img.shields.io/badge/Email-hello%40vhmns.tech-24292e?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>
   <a href="https://github.com/vhmns14"><img src="https://img.shields.io/badge/GitHub-vhmns14-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub" /></a>
   <a href="https://streak-stats.demolab.com/?user=vhmns14&theme=dark&hide_border=true"><img src="https://img.shields.io/badge/Status-Building%20Daily-2ea44f?style=flat-square" alt="Status" /></a>
 </p>
 
 > *I build production web tools for real businesses and write systems software from cryptographic first principles.*
+
+**Focus right now:** agent security, cost control, and memory — see [Agent Infrastructure & Security](#-agent-infrastructure--security).
 
 </div>
 
@@ -37,7 +40,7 @@ Tools I use daily to run autonomous agents without losing money, secrets, or san
 | **[mnemosyne](https://github.com/vhmns14/mnemosyne)** | Local-first long-term memory engine for agents: MCP server, CLI, and REST daemon with holographic + dialectic recall. | TypeScript · Bun · SQLite | Active |
 | **[overtime](https://github.com/vhmns14/overtime)** | Pixel-art isometric office that replays your Hermes Agent sessions live. | TypeScript · Bun | Active |
 | **[hermes-monitor-lite](https://github.com/vhmns14/hermes-monitor-lite)** | Lightweight local observability dashboard for Hermes Agent and Linux system resources. | HTML | Stable |
-| **[n8n-lint](https://github.com/vhmns14/n8n-lint)** | Static linter for n8n workflow JSON exports — catches the mistakes that silently break runs. Published on npm. | TypeScript · npm | Stable |
+| **[n8n-lint](https://github.com/vhmns14/n8n-lint)** | Static linter for n8n workflow JSON exports — catches the mistakes that silently break runs. | TypeScript | Active |
 | **[hermes-colosseum](https://github.com/vhmns14/hermes-colosseum)** | Multi-agent social deduction and strategic deception engine. Tests Theory of Mind and persuasion via dual-layer cognitive architecture (private mastermind vs public rhetoric) with real-time TUI and forensic match reports. | TypeScript · Bun · LLM Agents | Active |
 | **[hermes-chaos](https://github.com/vhmns14/hermes-chaos)** | Autonomous human-persona swarm and chaos QA engine for web apps. | TypeScript · Playwright | Active |
 
