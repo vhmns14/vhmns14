@@ -24,11 +24,22 @@
 
 ---
 
-### 🤖 Autonomous Agents & Multi-Agent Systems
+### 🤖 Agent Infrastructure & Security
+
+Tools I use daily to run autonomous agents without losing money, secrets, or sanity.
 
 | Project | Description | Stack | Status |
 | :--- | :--- | :--- | :--- |
+| **[garmr](https://github.com/vhmns14/garmr)** | Security scanner for MCP servers — detects tool poisoning, rug pulls, and tool shadowing before an agent trusts a server. | TypeScript · MCP | Active |
+| **[hermes-skill-audit](https://github.com/vhmns14/hermes-skill-audit)** | Dependency-free security scanner for agent skills: prompt injection, destructive shell commands, exfiltration paths. | Python · 0 deps | Active |
+| **[hermes-cost-tracker](https://github.com/vhmns14/hermes-cost-tracker)** | Dependency-free CLI ledger that tracks and visualizes token spend across providers — anti runaway cost. | Python · 0 deps | Active |
+| **[agent-log-redactor](https://github.com/vhmns14/agent-log-redactor)** | Redacts secrets and PII from agent logs and memory before they get committed. | Python · 0 deps | Active |
+| **[mnemosyne](https://github.com/vhmns14/mnemosyne)** | Local-first long-term memory engine for agents: MCP server, CLI, and REST daemon with holographic + dialectic recall. | TypeScript · Bun · SQLite | Active |
+| **[overtime](https://github.com/vhmns14/overtime)** | Pixel-art isometric office that replays your Hermes Agent sessions live. | TypeScript · Bun | Active |
+| **[hermes-monitor-lite](https://github.com/vhmns14/hermes-monitor-lite)** | Lightweight local observability dashboard for Hermes Agent and Linux system resources. | HTML | Stable |
+| **[n8n-lint](https://github.com/vhmns14/n8n-lint)** | Static linter for n8n workflow JSON exports — catches the mistakes that silently break runs. Published on npm. | TypeScript · npm | Stable |
 | **[hermes-colosseum](https://github.com/vhmns14/hermes-colosseum)** | Multi-agent social deduction and strategic deception engine. Tests Theory of Mind and persuasion via dual-layer cognitive architecture (private mastermind vs public rhetoric) with real-time TUI and forensic match reports. | TypeScript · Bun · LLM Agents | Active |
+| **[hermes-chaos](https://github.com/vhmns14/hermes-chaos)** | Autonomous human-persona swarm and chaos QA engine for web apps. | TypeScript · Playwright | Active |
 
 ---
 
@@ -39,10 +50,18 @@
 | **[KitchenCycle](https://kitchencycle.vercel.app)** | Production planning, real recipe HPP calculation, and automated inventory tracking for small F&B kitchens. | Next.js · TypeScript · Tailwind | Production |
 | **[Jadiin Rupiah](https://jadiinrupiah.com)** | On-demand door-to-door used cooking oil pickup & cash settlement across Jabodetabek. | Web · Logistics Routing | Production |
 | **[Sijantan](https://sijantan.id)** | Educational health portal with AI consultation & clinician locator — zero sign-up, zero data tracked. | Fullstack Web · AI | Production |
-| **[Hermes Cost Tracker](https://github.com/vhmns14)** | Zero-dependency CLI ledger to audit token spend across multiple LLM providers. | Python · 0 deps | CLI Tool |
-| **[Hermes Skill Audit](https://github.com/vhmns14)** | Security scanner detecting destructive shell commands, prompt injections, and exfiltration in agent skills. | Python · 0 deps | Security Tool |
 | **[Merkle Tree Visualizer](https://merkle-tree-visualizer.netlify.app)** | Interactive Merkle tree with SHA-256 written from scratch (~70 lines, byte-verified against Node crypto). | Vanilla TS · WebCrypto | Open Tool |
 | **[ProofOfHabit](https://proofofhabit.vercel.app)** | Stake MON on daily commitments: missed days burn to the dead address, survivors split the pot. | Solidity · wagmi · Monad | Testnet |
+
+---
+
+### 🧰 CLI & Developer Tools
+
+| Project | Description | Stack |
+| :--- | :--- | :--- |
+| **[kodekecil-api](https://api.kodekecil.my.id)** | Public, fast, free micro-APIs for Indonesian developers (SKB holiday calendar and friends). | TypeScript · Cloudflare |
+| **[git-worktree-manager](https://github.com/vhmns14/git-worktree-manager)** | Create, list, switch, and clean Git worktrees without remembering the plumbing. | Python · 0 deps |
+| **[kodekecil-ssh](https://github.com/vhmns14/kodekecil-ssh)** | Open-source SSH client for Android and Linux — Termius, tapi termurah. | Dart · Flutter |
 
 ---
 
@@ -62,7 +81,7 @@ Recent contributions merged to upstream projects:
 
 ```text
 Systems & Crypto :: Go · Solidity / Foundry · X25519 · Ed25519 · Shamir's Secret Sharing · Merkle Trees
-AI & Multi-Agent :: Dual-Layer ReAct Loops · Theory of Mind (ToM) · Prompt Forensics · Persona Swarms
+AI & Agents      :: MCP · Hermes Agent · Dual-Layer ReAct Loops · Theory of Mind (ToM) · Prompt Forensics
 Languages        :: Go · TypeScript · JavaScript · Rust · Python · Solidity · SQL
 Backend & Edge   :: Node.js · Bun · Cloudflare Workers · Next.js · Astro
 Storage & DB     :: PostgreSQL · SQLite / LibSQL · Redis · Cloudflare D1
