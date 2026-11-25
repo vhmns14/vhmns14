@@ -38,6 +38,7 @@ Tools I use daily to run autonomous agents without losing money, secrets, or san
 | **[hermes-cost-tracker](https://github.com/vhmns14/hermes-cost-tracker)** | Dependency-free CLI ledger that tracks and visualizes token spend across providers — anti runaway cost. | Python · 0 deps | Active |
 | **[agent-log-redactor](https://github.com/vhmns14/agent-log-redactor)** | Redacts secrets and PII from agent logs and memory before they get committed. | Python · 0 deps | Active |
 | **[mnemosyne](https://github.com/vhmns14/mnemosyne)** | Local-first long-term memory engine for agents: MCP server, CLI, and REST daemon with holographic + dialectic recall. | TypeScript · Bun · SQLite | Active |
+| **[skill-eval](https://github.com/vhmns14/skill-eval)** | A/B tests an agent skill against the bare model with deterministic checks — exit code 1 when the skill makes things worse. | Python · 0 deps | Active |
 | **[overtime](https://github.com/vhmns14/overtime)** | Pixel-art isometric office that replays your Hermes Agent sessions live. | TypeScript · Bun | Active |
 | **[hermes-monitor-lite](https://github.com/vhmns14/hermes-monitor-lite)** | Lightweight local observability dashboard for Hermes Agent and Linux system resources. | HTML | Stable |
 | **[n8n-lint](https://github.com/vhmns14/n8n-lint)** | Static linter for n8n workflow JSON exports — catches the mistakes that silently break runs. | TypeScript | Active |
